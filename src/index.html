@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="app.EditTemplate">
+<head>
+    <title>Edit profile by user.</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body ng-cloak>
+
+<div class="slide-animation-container">
+    <div ng-view id="ng-view" class=""></div>
+</div>
+
+<!-- 3rd party libraries -->
+<script src="../bower_components/angular/angular.js"></script>
+<script src="../bower_components/angular-route/angular-route.js"></script>
+<script src="../bower_components/angular-resource/angular-resource.js"></script>
+<script src="../bower_components/angular-mocks/angular-mocks.js"></script>
+
+<!-- Custom scripts -->
+<script src="app/app.js"></script>
+<script src="app/view/form/form.controller.js"></script>
+<script src="app/view/edit/edit-book.directive.js"></script>
+
+</body>
+</html>
+
